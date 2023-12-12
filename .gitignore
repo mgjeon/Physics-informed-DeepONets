@@ -1,1 +1,3 @@
 notebooks/**/*.npy
+**/__pycache__/
+**/*egg-info/
