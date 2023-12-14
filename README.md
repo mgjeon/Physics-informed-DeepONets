@@ -24,3 +24,10 @@ mamba install -y numpy scipy matplotlib tqdm
 
 pip install -e .
 ```
+
+
+## Burger
+
+1. Install MATLAB & [Chebfun](https://www.chebfun.org/)
+
+2. Run `gen_Burgers.m` to get `Burger.mat`
