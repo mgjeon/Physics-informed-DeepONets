@@ -19,6 +19,7 @@ pip install --upgrade pip
 mamba install -y pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 cd ~/miniforge3/envs/pidon/lib
 ln -sfn libnvrtc.so.11.8.89 libnvrtc.so
+cd -
 pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 mamba install -y numpy scipy matplotlib tqdm
 
